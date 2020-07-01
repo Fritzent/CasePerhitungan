@@ -1,4 +1,4 @@
-class Pengurangan(var userInputX:Int = 0, var userInputY:Int = 0): JenisPerhitungan() {
+class Pengurangan(var userInputX:Double, var userInputY:Double): JenisPerhitungan() {
     override fun penguranganFunction() {
         val x = userInputX
         val y = userInputY
@@ -9,7 +9,7 @@ class Pengurangan(var userInputX:Int = 0, var userInputY:Int = 0): JenisPerhitun
 
     }
 
-    private fun hitungPengurangan(userInputX: Int, userInputY: Int): Int {
+    private fun hitungPengurangan(userInputX: Double, userInputY: Double): Double {
         return (userInputX - userInputY)
     }
 }

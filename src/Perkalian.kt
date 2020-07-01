@@ -1,4 +1,4 @@
-class Perkalian(var userInputX:Int = 0, var userInputY:Int = 0): JenisPerhitungan() {
+class Perkalian(var userInputX:Double, var userInputY:Double): JenisPerhitungan() {
     override fun perkalianFunction() {
         val x = userInputX
         val y = userInputY
@@ -9,7 +9,7 @@ class Perkalian(var userInputX:Int = 0, var userInputY:Int = 0): JenisPerhitunga
 
     }
 
-    private fun hitungPerkalian(userInputX: Int, userInputY: Int): Int {
+    private fun hitungPerkalian(userInputX: Double, userInputY: Double): Double {
         return (userInputX * userInputY)
     }
 }

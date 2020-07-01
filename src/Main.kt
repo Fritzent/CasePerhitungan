@@ -45,13 +45,13 @@ fun callMain(){
                 println("=======================")
 
                 val calc = JenisPerhitungan()
-                val penjumlahan = Penjumlahan(userInputX = 0, userInputY= 0)
+                val penjumlahan = Penjumlahan(userInputX = 0.0, userInputY = 0.0)
 
                 print(" userInput X: ")
-                penjumlahan.userInputX = Scanner(System.`in`).nextInt()
+                penjumlahan.userInputX = Scanner(System.`in`).nextDouble()
 
                 print(" userInput y: ")
-                penjumlahan.userInputY = Scanner(System.`in`).nextInt()
+                penjumlahan.userInputY = Scanner(System.`in`).nextDouble()
 
 
                 calc.penjumlahanFunction()
@@ -71,13 +71,13 @@ fun callMain(){
                 println("=======================")
 
                 val calc = JenisPerhitungan()
-                val pengurangan = Pengurangan(userInputX = 0, userInputY= 0)
+                val pengurangan = Pengurangan(userInputX = 0.0, userInputY= 0.0)
 
                 print(" userInput X: ")
-                pengurangan.userInputX = Scanner(System.`in`).nextInt()
+                pengurangan.userInputX = Scanner(System.`in`).nextDouble()
 
                 print(" userInput y: ")
-                pengurangan.userInputY = Scanner(System.`in`).nextInt()
+                pengurangan.userInputY = Scanner(System.`in`).nextDouble()
 
 
                 calc.penguranganFunction()
@@ -97,13 +97,13 @@ fun callMain(){
                 println("=======================")
 
                 val calc = JenisPerhitungan()
-                val perkalian = Perkalian(userInputX = 0, userInputY= 0)
+                val perkalian = Perkalian(userInputX = 0.0, userInputY= 0.0)
 
                 print(" userInput X: ")
-                perkalian.userInputX = Scanner(System.`in`).nextInt()
+                perkalian.userInputX = Scanner(System.`in`).nextDouble()
 
                 print(" userInput y: ")
-                perkalian.userInputY = Scanner(System.`in`).nextInt()
+                perkalian.userInputY = Scanner(System.`in`).nextDouble()
 
 
                 calc.perkalianFunction()

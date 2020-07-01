@@ -1,4 +1,4 @@
-class Penjumlahan(var userInputX:Int = 0, var userInputY:Int = 0): JenisPerhitungan() {
+class Penjumlahan(var userInputX:Double , var userInputY:Double ): JenisPerhitungan() {
     override fun penjumlahanFunction() {
         val x = userInputX
         val y = userInputY
@@ -9,7 +9,7 @@ class Penjumlahan(var userInputX:Int = 0, var userInputY:Int = 0): JenisPerhitun
 
     }
 
-    private fun hitungPenjumlahan(userInputX: Int, userInputY: Int): Int {
+    private fun hitungPenjumlahan(userInputX: Double, userInputY: Double): Double {
         return (userInputX + userInputY)
     }
 //    private fun hitungPenjumlahan(userInputX: Double, userInputY: Double): Double{
