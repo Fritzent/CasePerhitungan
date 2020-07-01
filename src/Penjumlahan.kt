@@ -15,8 +15,5 @@ class Penjumlahan(var userInputX:Int = 0, var userInputY:Int = 0): JenisPerhitun
 //    private fun hitungPenjumlahan(userInputX: Double, userInputY: Double): Double{
 //        return (userInputX + userInputY)
 //    }
-//    override fun hasil(): Int {
-//        return (userInputX + userInputY)
-//    }
 
 }

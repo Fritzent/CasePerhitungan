@@ -10,6 +10,18 @@ open class JenisPerhitungan {
         println(" ========================================= ")
     }
     open fun penguranganFunction(){
-        println(" Pengurangan Method ")
+        println(" ========================================= ")
+        println(" === Rumus : userInput X - userInput Y ===")
+        println(" ========================================= ")
+    }
+    open fun perkalianFunction(){
+        println(" ========================================= ")
+        println(" === Rumus : userInput X * userInput Y ===")
+        println(" ========================================= ")
+    }
+    open fun pembagianFunction(){
+        println(" ========================================= ")
+        println(" === Rumus : userInput X / userInput Y ===")
+        println(" ========================================= ")
     }
 }

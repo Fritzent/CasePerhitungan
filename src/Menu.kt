@@ -12,4 +12,7 @@ open class Menu {
     fun casePembagian() {
         println(" D. Belajar Pembagian ")
     }
+    fun caseSelesai() {
+        println(" E. Selesai ")
+    }
 }
